@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: url(../images/mainbackground.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+
+}
+ul{
+    position: relative;
+    margin: 5px;
+    list-style: none;
+    padding: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.header {
+    position: fixed;
+   left: 2%;
+   top: 3%;
+   z-index: 10;
+    padding: 2%;
+    background-color: rgba(0, 255, 255, 0.3);
+    width: 96%;
+   height: 120px;
+   border-style: solid;
+    border-color: white;
+    border-width: 1px;
+   
+
+}
+.navigate{
+    position: relative;
+    margin:0;
+    
+    
+}
+.header>.navigate>ul{
+
+   display: flex;
+   justify-content: space-between;
+   margin-left: 20%;
+   margin-right: 20%;
+   
+
+}
+
+/* .navigate>ul{
+    display: inline;
+   margin: 0;
+   position: relative;
+} */
+.main {
+    position: relative;
+   
+    padding: 2%;
+  display: flex;
+ justify-content: space-between;
+ 
+ color: aliceblue;
+ margin-top: 140px;
+ 
+  
+
+}
+
+
+.leftside {
+    position: relative;
+    width: 20%;
+    max-width: 20%;
+    
+    left: 0%;
+    background-color: rgba(73, 233, 233, 0.5);
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+  
+ 
+
+}
+
+.leftblok {
+position: relative;
+margin: 5px;
+
+}
+.rigthside{
+    position: relative;
+    width: 20%;
+    max-width: 20%;
+   
+    background-color: rgba(73, 233, 233, 0.5);
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
+}
+.rightblock{
+    position: relative;
+    margin: 5px;
+}
+.center{
+    /* position: relative; */
+   
+ 
+    background-color: rgba(98, 240, 150, 0.5);
+    max-width: 70%;
+    width: 70%;
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+   margin: 2px;
+   padding: 1%;
+}
+.centerblock{
+  
+    position: relative;
+    display: inline;
+    /* margin: 2px; */
+    
+    
+}
+.imgconteiner{
+    display: inline;
+    text-align: center;
+    position: relative;
+    margin: 20px;
+    
+ 
+  float: left;
+  
+   
+}
+.imgconteiner>figure{
+    margin: 0;
+}
+
+img{
+    position: relative;
+    max-width: 100%;
+   
+}
+.footer{
+    position: relative;
+    text-align: justify;
+    
+    
+    color: rgb(163, 25, 25);
+}
+
